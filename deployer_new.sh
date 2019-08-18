@@ -45,4 +45,4 @@ echo " -> Complete!"
 echo
 echo "notes:"
 echo "- update the repository using ./pull.sh from its root."
-echo "- you can add \".id_rsa_deployement*\" to \".gitignore\" "
+echo "- you can add \".id_rsa_deploy*\" to \".gitignore\" "
