@@ -46,7 +46,7 @@ if [[ "$1" == "new" ]]; then
 	echo
 	echo "notes:"
 	echo "- update the repository using ./pull.sh from its root."
-	echo "- you can add \".id_rsa_deployment*\" to \".gitignore\" "
+	echo "- you can add \".id_rsa_deploy*\" to \".gitignore\" "
 elif [[ "$1" == "pull" ]]; then
 	if [[ ! -f ./.id_rsa_deploy ]]; then
 		echo "Deployment's ssh-key not found. Re-clone with \"$0 new\" to setup."
