@@ -22,5 +22,3 @@ if [ ${SSH_AGENT_PID+1} == 1 ]; then
 fi
 
 echo " -> Complete!"
-
-
